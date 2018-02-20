@@ -6,6 +6,6 @@ addons:
   sonarcloud:
     organization:  syd-baroya-github
     token:
-      secure: 0d30ce796cfa6848933d11b51bab5f9b02ffa02d
+      secure: d17030d8db1f869da68e9c1332e035ed2c4c8ee9
 script:
   - sonar-scanner

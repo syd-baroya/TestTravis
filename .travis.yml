@@ -2,3 +2,10 @@ language: java
 jdk:
 - oraclejdk8
 script: ant build
+addons:
+  sonarcloud:
+    organization:  syd-baroya-github
+    token:
+      secure: 0d30ce796cfa6848933d11b51bab5f9b02ffa02d
+script:
+  - sonar-scanner
